@@ -66,7 +66,7 @@
 
 | 学位 | 学校 | 时间 |
 |------|------|------|
-| **MSc Advanced Data Science and AI** | 利物浦大学 (QS 前150) | 2024 – 至今 |
+| **MSc Advanced Data Science and AI** | 利物浦大学 (QS 前150) | 2025 – 至今 |
 | **Software Engineering (学士)** | 西南大学 (985/211) | 2018 – 2022 |
 
 ---
