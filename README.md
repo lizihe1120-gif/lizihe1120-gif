@@ -41,7 +41,7 @@
 **R / tidyverse / ggplot2**  
 基于 S&P 500 成分股日收益率进行主成分分析，揭示市场共同因子对股票收益的驱动作用。涵盖数据清洗、面板构建、PCA 分析及标准化对比，并探讨实体对齐问题对金融分析的影响。
 
-### 🧠 [DQN 月球着陆器](https://github.com/lizihe1120-gif/LunarLander-DQN)
+### 🧠 [DQN 月球着陆器]([https://github.com/lizihe1120-gif/LunarLander-DQN](https://github.com/lizihe1120-gif/Lunar-lander-DQN-reinforcement-learning))
 **PyTorch / Gymnasium**  
 使用深度 Q 网络（DQN）训练智能体完成 LunarLander 着陆任务，实现经验回放、固定 Q 目标和软更新等核心技术。可作为强化学习入门与实践的参考项目。
 
