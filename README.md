@@ -1,83 +1,170 @@
-# 👋 你好，我是李梓赫
+<div align="center">
 
-**MSc Advanced Data Science and AI** @ University of Liverpool  
-📍 英国 | 数据分析 · 机器学习 · 人工智能
+# 李梓赫 | AI Product & Applied AI
 
----
+**MSc Advanced Data Science and AI @ University of Liverpool**
 
-## 🚀 关于我
+面向 **AI 产品、Applied AI、FDE / Solutions 与金融数据**方向，  
+关注如何把模型、数据与复杂业务规则转化为**可解释、可验证、可交付**的决策系统。
 
-- 🎓 利物浦大学高级数据科学与人工智能硕士在读，西南大学软件工程本科毕业
-- 💡 热爱用数据和算法解决实际问题，对 AI 系统落地、金融量化、仿真模拟有浓厚兴趣
-- 🛠️ 具备扎实的编程与工程能力：Python / C / C++ / Java，熟悉数据处理与并行计算优化
-- 🤝 善于跨团队协作，有项目组长经验，可独立完成技术评估与项目推进
+`AI Product` · `Applied AI` · `Financial Data` · `Decision Systems`
 
----
-
-## 🔧 技术栈
-
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
-![C](https://img.shields.io/badge/C-00599C?style=flat&logo=c&logoColor=white)
-![C++](https://img.shields.io/badge/C++-00599C?style=flat&logo=c%2B%2B&logoColor=white)
-![Java](https://img.shields.io/badge/Java-007396?style=flat&logo=java&logoColor=white)
-![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat&logo=pytorch&logoColor=white)
-![Pandas](https://img.shields.io/badge/Pandas-150458?style=flat&logo=pandas&logoColor=white)
-![NumPy](https://img.shields.io/badge/NumPy-013243?style=flat&logo=numpy&logoColor=white)
-![MPI](https://img.shields.io/badge/MPI-0078D4?style=flat&logo=mpi&logoColor=white)
+</div>
 
 ---
 
-## 📂 精选项目
+## 关于我
 
-### 🌱 [疾病传播模拟](https://github.com/lizihe1120-gif/Spatial-transmission-simulation-of-infectious-diseases-SIR-model-)
-**C / OpenMP / MPI**  
-模拟传染病在二维网格空间中的传播，实现了串行、OpenMP 并行和 MPI 分布式三种版本。通过多线程与算法优化，整体运行效率提升约 **300%**，显著降低大规模模拟场景的计算时间。
+- **从用户问题到产品方案**：梳理目标用户与业务流程，拆解模块边界，完成 MVP 取舍、优先级排序与验收指标设计。
+- **从模型输出到可信决策**：关注数据质量、模型评测、证据追溯、不确定性表达、人工确认与失败兜底，而不只追求单一模型指标。
+- **从技术原型到工程交付**：具备 Python / R / C / C++ / Java 基础，以及 API、状态管理、测试、持续集成和跨产研协同经验。
 
-### 🎰 [多臂老虎机与 ε-Greedy 算法](https://github.com/lizihe1120-gif/Multi-armed-slot-machine-simulation-and--Greedy-algorithm-experiment)
-**Python / NumPy / Matplotlib**  
-实现 ε-Greedy 算法在多臂老虎机问题上的实验与可视化，分析不同 ε 值对平均奖励和最优动作选择的影响。项目包含完整的模拟器、算法核心和绘图模块。
-
-### 📈 [股票收益率 PCA 分析](https://github.com/lizihe1120-gif/Principal-Component-Analysis-PCA-of-Stock-Returns-A-Market-Factor-Study-Based-on-S-P-500-Data)
-**R / tidyverse / ggplot2**  
-基于 S&P 500 成分股日收益率进行主成分分析，揭示市场共同因子对股票收益的驱动作用。涵盖数据清洗、面板构建、PCA 分析及标准化对比，并探讨实体对齐问题对金融分析的影响。
-
-### 🧠 [DQN 月球着陆器](https://github.com/lizihe1120-gif/Lunar-lander-DQN-reinforcement-learning)
-**PyTorch / Gymnasium**  
-使用深度 Q 网络（DQN）训练智能体完成 LunarLander 着陆任务，实现经验回放、固定 Q 目标和软更新等核心技术。可作为强化学习入门与实践的参考项目。
-
-### 🥞 [前缀反转排序算法](https://github.com/lizihe1120-gif/Prefix-Reversal-Sort-Algorithm-Implementation)
-**Python**  
-实现四种基于前缀反转（煎饼排序）的排序算法，分别处理随机排列、三调序列、二进制和三进制序列。算法结合贪心策略与有限深度搜索，并提供完整测试框架。
+> 我关注的不是单纯训练一个模型，而是如何让 AI 在真实工作流中可靠地发挥作用。
 
 ---
 
-## 💼 实习经历
+## 简历核心项目 | Resume-aligned Work
 
-**深圳大数据计算机股份有限公司** | Java 开发  
-*2022.10 – 2023.03*
+以下项目对应我的简历重点方向，目前先展示已经确认的产品问题、个人职责、验证结果与项目边界；独立项目页面和代码仍在整理，暂不提供公开仓库链接。
 
-- 参与社交类软件后台系统建设，负责接口数据梳理、业务逻辑整合与系统稳定性优化
-- 完善单元测试体系与部署流程，有效提升系统可维护性与交付效率
-- 协助完成 Jenkins 流程配置，支撑项目持续集成与迭代
+### 股票市场盘前盘后数据分析平台
+
+**金融数据质量 · 用户需求拆解 · MVP 优先级**  
+*课程项目 · 项目组长 · 2026.02 - 至今*
+
+面向缺乏编程能力的个人投资者，搭建金融数据批量处理 Demo，解决多源文件格式混乱、初学者难以判断数据质量的问题；项目核心是数据可靠性校验，而不是投资涨跌预测。
+
+- 梳理目标用户从导入数据到查看质量报告的完整路径，定义模块接口、验收指标和非目标范围。
+- 将项目拆分为前端、后端、数据分析和策略算法模块，按照用户路径、依赖关系与风险成本确定开发顺序。
+- 优先打通数据质检与预处理流程，批量处理 3,423 份股票数据文件；对缺失率高于 30% 的文件直接隔离，避免强行插补造成数据失真。
+
+### 互动叙事 LLM Agent 项目原型
+
+**Agent 产品设计 · 状态与记忆 · 评测闭环**  
+*个人项目 · 2026.06 - 至今*
+
+面向角色扮演和互动创作用户，解决长对话中的角色失忆、人设偏移、关系突变与系统越权替用户决策等问题，完成从需求定义、方案权衡到原型迭代的产品实践。
+
+- 定义人物卡、世界卡、关系记忆、状态快照和失败回退五类核心模块，并明确 MVP 与后续能力边界。
+- 设计上下文筛选策略，只向模型传递当前任务所需历史信息，减少长上下文污染。
+- 以有效叙事回合率为核心指标，结合失败率、响应时延和生成成本，形成“失败案例收集 → 根因标记 → 方案修正 → 回归验证”的迭代闭环。
+
+### COMP702 股价预测与动态模型选择
+
+**金融机器学习 · 多模型评估 · 风险与分布偏移**  
+*课程项目 · 2026.06 - 2026.09*
+
+基于 OHLCV 行情数据构建实验性金融决策研究原型，对比 Random Forest、XGBoost 和 LSTM，并实现 ATSDAT 动态模型选择组件，根据近期风险收益表现选择当日模型。
+
+- 完成技术指标、预测输出、交易模拟与多维度评估的统一工作流。
+- 在 P3 评估期内，ATSDAT 的累计收益在 10 项资产中的 8 项高于对应买入持有基线，体现出一定的跨资产基准胜出一致性。
+- 对比开发集与后期评估结果，识别市场分布偏移和固定模型性能衰减，并提出滚动重训练、分布偏移监控、API 与可视化等后续方向。
+
+**研究边界：** 8/10 不表示八项资产均盈利，也不构成稳定战胜市场的证明；当前结果尚未纳入交易成本、完全嵌套选模和统计显著性验证。
 
 ---
 
-## 🎓 教育背景
+## 旗舰项目 | Featured Work
+
+### [事件浮力图](https://github.com/lizihe1120-gif/event-intelligence-buoyancy-map)
+
+**金融事件证据链 · AI 分析管线 · 可解释决策界面**  
+[在线演示](https://lizihe1120-gif.github.io/event-intelligence-buoyancy-map/) · [GitHub 仓库](https://github.com/lizihe1120-gif/event-intelligence-buoyancy-map)
+
+面向投资研究人员、财经内容使用者与个人投资者，将分散的公告、新闻、观点和市场观察组织成“证据版本 → 事件 → 公司”的可追溯关系图。
+
+- 将事件确认状态与执行状态拆分，避免把“已确认”误写成“已完成”。
+- 区分事实、观点、推测与传闻，并保留版本关系、引用来源和逐公司影响依据。
+- 通过 Schema、引用和语义校验阻止不合格分析结果进入可视化；行情变化只作为时间相关观察，不作为因果证明。
+- 提供 GitHub Pages 在线演示、历史快照、详情抽屉、通知中心及可复现的离线分析产物。
+
+**项目边界：** 当前演示使用保存的公开材料与离线分析结果，不提供实时行情、投资建议或收益预测。
+
+### [通识主观题要点辅助评测系统](https://github.com/lizihe1120-gif/subjective-answer-evaluation)
+
+**Human-in-the-loop · LLM Provider · 状态机与隐私边界**  
+[GitHub 仓库](https://github.com/lizihe1120-gif/subjective-answer-evaluation)
+
+面向教师和学生构建本地运行的主观题辅助评测原型，将规则或 LLM 输出约束为可核查的评分建议，并由教师完成最终确认。
+
+- 覆盖教师配置、学生提交、辅助评测、低置信度处理、人工加分与最终确认的完整流程。
+- 使用提交版本和活动任务双重保护，阻止旧评测结果覆盖新答案；最终确认后结果只读。
+- 通过统一 Provider 接口隔离本地 Ollama 与可选 DeepSeek，密钥仅由服务端读取，失败策略必须由教师明确配置。
+- 学生端在教师最终确认前不展示分数、命中点或内部反馈，避免模型建议被误当成正式成绩。
+
+**项目边界：** 当前是本地原型；工程验证已经完成，但真实 Ollama/DeepSeek 推理仍待人工验收，不声称生产可用。
+
+### [S&P 500 股票收益率 PCA 因子分析](https://github.com/lizihe1120-gif/Principal-Component-Analysis-PCA-of-Stock-Returns-A-Market-Factor-Study-Based-on-S-P-500-Data)
+
+**金融数据质量 · 因子解释 · 结果可复核**
+
+基于 S&P 500 历史数据构建统一收益率面板，对比原始与标准化数据的 PCA 结果，分析市场公共因子和个股相关结构。
+
+- 将数据完整性、统一交易日与实体对齐视为分析可靠性的前置条件。
+- 通过标准化前后对比，说明波动尺度如何影响主成分解释。
+- 将统计结果转化为系统性风险与组合因子暴露的分析思路，而不是进行涨跌预测或自动交易。
+
+## 其他项目 | Additional Projects
+
+以下项目继续保留各自独立仓库和完整页面；主页只展示其产品问题、决策价值与主要边界。
+
+### [多臂老虎机与 ε-Greedy 策略仿真](https://github.com/lizihe1120-gif/Multi-armed-slot-machine-simulation-and--Greedy-algorithm-experiment)
+
+构建离线策略仿真框架，对比不同探索率和臂数下的平均奖励与最优动作选择比例，用于理解搜索冷启动、流量分配等场景中的探索收益、用户体验损耗与参数权衡。
+
+### [DQN 月球着陆器 AI 智能体](https://github.com/lizihe1120-gif/Lunar-lander-DQN-reinforcement-learning)
+
+以仿真环境验证“环境感知 → 自主决策 → 反馈迭代”的智能体闭环，并从产品视角补充任务完成、异常输入、结果兜底与用户预期管理等非训练侧评估问题。
+
+### [疾病传播模拟与并行仿真](https://github.com/lizihe1120-gif/Spatial-transmission-simulation-of-infectious-diseases-SIR-model-)
+
+实现串行、OpenMP 与 MPI 三类计算模式，面向科研仿真场景探索精度、运行速度和算力成本之间的交付权衡；主页暂不保留缺少公开基准记录支撑的性能提升百分比。
+
+### 混合文本主题聚类 NLP 项目
+
+面向混合无标签文本构建 TF-IDF、SVD、LDA 与 K-Means 分析流程，将聚类结果用于初步主题探索；同时明确轮廓系数较低、语义重叠与簇边界模糊等限制，不把相对最优参数包装成生产可用效果。
+
+<!-- TODO: 用户提供该项目现有独立页面的准确链接后，将标题改为链接；不新建或改名现有页面。 -->
+
+### [前缀反转排序算法](https://github.com/lizihe1120-gif/Prefix-Reversal-Sort-Algorithm-Implementation)
+
+围绕不同约束序列设计可复用的排序策略与自动化测试，将项目定位为算法方案比较、约束建模和正确性验证案例，而不是独立商业产品。
+
+---
+
+## 能力与工具 | Capabilities
+
+| 方向 | 能力与工具 |
+| --- | --- |
+| **AI 产品与策略** | Agent 方案设计、MVP 取舍、需求拆解、指标体系、Human-in-the-loop、风险与失败策略 |
+| **机器学习与数据** | Python、R、SQL、PyTorch、Pandas、NumPy；DQN、Bandit、PCA、时序特征、数据清洗与模型评估 |
+| **工程与交付** | API 与状态设计、模块拆解、测试、Git、Jenkins、CI/CD、跨产研协同与文档沉淀 |
+| **系统与并行计算** | C / C++ / Java、OpenMP、MPI、仿真实验与性能权衡 |
+
+---
+
+## 经历与教育 | Experience & Education
+
+### 深圳大数据计算机股份有限公司 · Java 开发（项目成员）
+
+*2022.10 - 2023.03*
+
+- 对齐产品诉求，梳理接口与业务逻辑，从技术侧识别实现成本、系统约束与交付风险。
+- 参与需求评审和方案权衡，协助连接产品需求与技术实现。
+- 完善单元测试与 Jenkins 持续集成流程，提升系统可维护性和版本交付效率。
 
 | 学位 | 学校 | 时间 |
-|------|------|------|
-| **MSc Advanced Data Science and AI** | 利物浦大学 (QS 前150) | 2025 – 至今 |
-| **Software Engineering (学士)** | 西南大学 (985/211) | 2018 – 2022 |
+| --- | --- | --- |
+| **MSc Advanced Data Science and AI** | University of Liverpool | 2025.09 - 2026.12 |
+| **BEng Software Engineering** | 西南大学 | 2018.09 - 2022.06 |
 
 ---
 
-## 📫 联系我
+## 联系方式 | Contact
 
-- 📧 邮箱：847701081@qq.com  
-- 📱 手机：18644711120  
-- 💬 微信：YiChuanEth  
-- 💻 GitHub：[github.com/lizihe1120-gif](https://github.com/lizihe1120-gif)
+- 邮箱：[847701081@qq.com](mailto:847701081@qq.com)
+- 手机：(+86) 18644711120
+- GitHub：[github.com/lizihe1120-gif](https://github.com/lizihe1120-gif)
 
----
+欢迎围绕 AI 产品、Applied AI、金融数据与技术解决方案交流。
 
-⭐️ *欢迎浏览我的项目，如有合作或交流意向，欢迎随时联系！*
